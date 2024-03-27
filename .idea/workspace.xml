@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c71e2e65-43dd-4a87-8d3c-8ad7ab083507" name="Changes" comment="[START] Project">
-      <change afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
+    <list default="true" id="c71e2e65-43dd-4a87-8d3c-8ad7ab083507" name="Changes" comment="[END] Project">
+      <change afterPath="$PROJECT_DIR$/assets/css/background.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,6 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/Maxime/Zone01/JS/graphql/assets/js",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,7 +82,7 @@
       <workItem from="1711452538530" duration="68000" />
       <workItem from="1711452617157" duration="1703000" />
       <workItem from="1711454334133" duration="8237000" />
-      <workItem from="1711530524640" duration="6920000" />
+      <workItem from="1711530524640" duration="8424000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD] Project">
       <option name="closed" value="true" />
@@ -100,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711436714747</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[END] Project">
+      <option name="closed" value="true" />
+      <created>1711538626833</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711538626833</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[ADD] Project" />
     <MESSAGE value="[START] Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="[START] Project" />
+    <MESSAGE value="[END] Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="[END] Project" />
   </component>
 </project>

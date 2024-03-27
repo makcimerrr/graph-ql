@@ -157,7 +157,6 @@ function createGraphXP(transactions) {
 
   const sortedData = data.slice().sort((a, b) => new Date(a.createdAt) - new Date(b.createdAt));
 
-  // Create the SVG container
   const svgContainer = document.getElementById('xp-container');
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   svg.setAttribute('width', '100%');
@@ -173,13 +172,10 @@ function createGraphXP(transactions) {
     accumulatedValues.push({ x: index, y: accumulatedTotal });
   });
 
-  // Calculate Y-axis step size
   const yAxisStep = Math.ceil(Math.max(accumulatedTotal));
 
-  // Calculate X-axis step size (assuming 30 days per month)
-  const dateStep = 30 * 24 * 60 * 60 * 1000; // 30 days in milliseconds
+  const dateStep = 30 * 24 * 60 * 60 * 1000;
 
-  // Calculate the number of months between the start and end date
   const startDate = new Date(sortedData[0].createdAt);
   const endDate = new Date(sortedData[sortedData.length - 1].createdAt);
   const monthsDifference = monthsBetweenDates(startDate, endDate);
@@ -193,7 +189,6 @@ function createGraphXP(transactions) {
   line.setAttribute('stroke-width', '2');
 
   svg.appendChild(line);
-  // Create Y-axis ticks and labels
   for (let i = 0; i <= 10; i++) {
     const yAxisTick = document.createElementNS('http://www.w3.org/2000/svg', 'line');
     yAxisTick.setAttribute('x1', '0');
@@ -211,7 +206,6 @@ function createGraphXP(transactions) {
     svg.appendChild(yAxisLabel);
   }
 
-  // Create X-axis ticks and labels
   for (let i = 0; i <= monthsDifference; i++) {
     const dateForTick = new Date(startDate.getTime() + (i / monthsDifference) * monthsDifference * dateStep);
     const xAxisTick = document.createElementNS('http://www.w3.org/2000/svg', 'line');
@@ -354,7 +348,7 @@ async function createSkillBarGraph(skillLevels) {
   let index = 0;
   for (const [skillType, level] of Object.entries(skillLevels)) {
     const bar = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
-    const barHeight = (level / 100) * svgContainer.clientHeight; // Assuming the maximum level is 100 for scaling
+    const barHeight = (level / 100) * svgContainer.clientHeight;
     const xPosition = index * barWidth;
     const yPosition = svgContainer.clientHeight - barHeight;
 
@@ -378,7 +372,6 @@ async function createSkillBarGraph(skillLevels) {
     index++;
   }
 
-  // Create Y-axis ticks and labels (adjust as needed)
   for (let i = 0; i <= 10; i++) {
     const yAxisTick = document.createElementNS('http://www.w3.org/2000/svg', 'line');
     yAxisTick.setAttribute('x1', '0');
@@ -392,7 +385,7 @@ async function createSkillBarGraph(skillLevels) {
     yAxisLabel.setAttribute('x', '5');
     yAxisLabel.setAttribute('y', (i / 10) * svgContainer.clientHeight - 5);
     yAxisLabel.setAttribute('fill', '#333');
-    yAxisLabel.textContent = Math.round(100 * (10 - i) / 10); // Assuming maximum level is 100 for scaling
+    yAxisLabel.textContent = Math.round(100 * (10 - i) / 10);
     svg.appendChild(yAxisLabel);
   }
 
