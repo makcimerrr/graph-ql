@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c71e2e65-43dd-4a87-8d3c-8ad7ab083507" name="Changes" comment="[ADD] Project">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/variables.js" beforeDir="false" />
+    <list default="true" id="c71e2e65-43dd-4a87-8d3c-8ad7ab083507" name="Changes" comment="[START] Project">
+      <change afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,25 +36,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Maxime/Zone01/JS/graphql/assets/js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maxime\Zone01\JS\graphql\assets\js" />
+      <recent name="C:\Users\Maxime\Zone01\JS\graphql" />
+      <recent name="C:\Users\Maxime\Zone01\JS\graphql\assets\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Maxime\Zone01\JS\graphql" />
-      <recent name="C:\Users\Maxime\Zone01\JS\graphql\templates" />
-      <recent name="C:\Users\Maxime\Zone01\JS\graphql\assets\js" />
+      <recent name="C:\Users\Maxime\Zone01\JS\graphql\assets\js\home" />
+      <recent name="C:\Users\Maxime\Zone01\JS\graphql\assets\fonts" />
       <recent name="C:\Users\Maxime\Zone01\JS\graphql\assets\css" />
+      <recent name="C:\Users\Maxime\Zone01\JS\graphql\assets\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,7 +76,13 @@
       <workItem from="1711369224764" duration="375000" />
       <workItem from="1711369688516" duration="1487000" />
       <workItem from="1711372691376" duration="2983000" />
-      <workItem from="1711436532819" duration="146000" />
+      <workItem from="1711436532819" duration="11104000" />
+      <workItem from="1711451432260" duration="734000" />
+      <workItem from="1711452178932" duration="348000" />
+      <workItem from="1711452538530" duration="68000" />
+      <workItem from="1711452617157" duration="1703000" />
+      <workItem from="1711454334133" duration="8237000" />
+      <workItem from="1711530524640" duration="6920000" />
     </task>
     <task id="LOCAL-00001" summary="[ADD] Project">
       <option name="closed" value="true" />
@@ -75,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711369758693</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[START] Project">
+      <option name="closed" value="true" />
+      <created>1711436714747</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711436714747</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -83,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[ADD] Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] Project" />
+    <MESSAGE value="[START] Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="[START] Project" />
   </component>
 </project>
